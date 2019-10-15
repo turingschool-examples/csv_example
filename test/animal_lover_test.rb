@@ -19,4 +19,8 @@ class AnimalLoverTest < Minitest::Test
     assert_equal 60, @hagrid.age
   end
 
+  def test_animal_lover_has_full_name
+    assert_equal "Rubeus Hagrid", @hagrid.full_name
+  end
+
 end
