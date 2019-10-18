@@ -1,3 +1,5 @@
+
+
 class AnimalLover
   attr_reader :id, :first_name, :last_name, :age
 
